@@ -4,11 +4,10 @@ data:
     name: kernel-rt base
     description: Base set of kernel-rt packages and tools to ship
     maintainer: sst_kernel_rats
-    packages: []
     labels:
         - eln
 
-    package_placeholders:
+    packages:
       kernel-rt:
         srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.

@@ -4,11 +4,10 @@ data:
     name: kernel-rt devel/debug
     description: Kernel RT packages used for devel/debug
     maintainer: sst_kernel_rats
-    packages: []
     labels:
-        - eln 
+        - eln
 
-    package_placeholders:
+    packages:
       kernel-rt-debug:
         srpm: kernel-rt
         description: This package is not in Fedora (yet), but we want it here.

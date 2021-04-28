@@ -13,7 +13,7 @@ data:
     x86_64:
       - stress-ng
 
-  package_placeholders:
+  packages:
     realtime-tests:
       srpm: realtime-tests
       description: This package is not in Fedora (yet), but we want it here.
@@ -48,10 +48,8 @@ data:
         - make
         - openssl
         - openssl-devel
-#   commented out due to content resolver not liking requires in the
-#   placeholder section
-#        - rteval-loads
-#        - rteval-common
+        - rteval-loads
+        - rteval-common
       buildrequires:
         - python3-devel
       limit_arches:
